@@ -9,7 +9,7 @@ function Header() {
           <Link to="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
             <GraduationCap className="w-10 h-10 text-blue-600" />
             <div>
-              <h1 className="text-2xl font-bold text-gray-800">Verma Coaching Classes</h1>
+              <h1 className="text-2xl font-bold text-gray-800">Varma Coaching Classes</h1>
               <p className="text-xs text-gray-500">Excellence in Education</p>
             </div>
           </Link>

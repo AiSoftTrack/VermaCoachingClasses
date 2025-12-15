@@ -49,7 +49,7 @@ function Footer() {
             Made by <span className="text-blue-400 font-semibold">AI Softrack Solution</span>
           </p>
           <p className="text-gray-500 text-xs mt-2">
-            &copy; {new Date().getFullYear()} TechLearn Institute. All rights reserved.
+            &copy; {new Date().getFullYear()} Verma Coaching Classes. All rights reserved.
           </p>
         </div>
       </div>
@@ -58,3 +58,4 @@ function Footer() {
 }
 
 export default Footer;
+

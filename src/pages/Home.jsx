@@ -17,7 +17,7 @@ function Home() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-              Welcome to Verma Coaching Classes
+              Welcome to Varma Coaching Classes
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100">
               Empowering Tomorrow's Tech Leaders Today
@@ -39,7 +39,7 @@ function Home() {
                 <div className="bg-white bg-opacity-20 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
                   <Users className="w-10 h-10" />
                 </div>
-                <h3 className="text-3xl font-bold mb-2">5000+</h3>
+                <h3 className="text-3xl font-bold mb-2">500+</h3>
                 <p className="text-blue-100">Students</p>
               </div>
 
