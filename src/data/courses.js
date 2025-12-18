@@ -23,7 +23,7 @@ export const coursesData = [
     name: "Chemistry Class 11th + 12th",
     price: 6000,
     duration: "12 Months",
-    educator: "Mr. Gaury Sir",
+    educator: "Mr. Gaury Shankar Yadav Sir",
     educatorBio: "Certified Chemistry educator with 8+ years of teaching experience. Expert in simplifying complex chemical concepts and guiding students toward strong academic and exam success.",
     image: "https://images.unsplash.com/photo-1617155093730-a8bf47be792d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fENoZW1pc3RyeXxlbnwwfHwwfHx8MA%3D%3D"
   },
@@ -32,7 +32,7 @@ export const coursesData = [
     name: "Biology Class 11th + 12th ",
     price: 6000,
     duration: "12 Months",
-    educator: "Teacher",
+    educator: "Krishna Varma",
     educatorBio: "Passionate Biology educator with a strong academic foundation. Committed to making biological concepts easy to understand and fostering curiosity through clear explanations and interactive learning.",
     image: "https://plus.unsplash.com/premium_photo-1681487118711-2c8e629d4313?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGJpb2xvZ3l8ZW58MHx8MHx8fDA%3D"
   },
@@ -41,7 +41,7 @@ export const coursesData = [
     name: "PCM Bundle",
     price: 15000,
     duration: "12 Months",
-    educator: "Prof. Santosh Verma(Mathematics, Physics), Mr. Gaury Sir(Chemistry)",
+    educator: "Prof. Santosh Verma(Mathematics, Physics), Mr. Gaury Shankar Yadav Sir(Chemistry)",
     educatorBio: "Dedicated educator for Physics, Chemistry, and Mathematics with a strong academic foundation. Focused on building conceptual clarity, problem-solving skills, and exam-oriented understanding through structured and engaging teaching.",
     image: "https://images.unsplash.com/photo-1754304342371-29b232189f05?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8UGh5c2ljcyUyMGNoZW1pc3RyeSUyMG1hdGhzfGVufDB8fDB8fHww"
   },
@@ -50,7 +50,7 @@ export const coursesData = [
     name: "PCB Bundle",
     price: 15000,
     duration: "12 Months",
-    educator: "Prof. Santosh Verma(Physics), Mr. Gaury Sir(Chemistry), Teacher(Biology",
+    educator: "Prof. Santosh Verma(Physics), Mr. Gaury Shankar Yadav Sir(Chemistry), Krishna Varma(Biology",
     educatorBio: "Dedicated educator for Physics, Chemistry, and Biology with a strong academic foundation. Focused on building conceptual clarity, scientific thinking, and exam-oriented understanding through structured and engaging teaching.",
     image: "https://images.unsplash.com/photo-1754304342371-29b232189f05?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8UGh5c2ljcyUyMGNoZW1pc3RyeSUyMG1hdGhzfGVufDB8fDB8fHww"
   }
