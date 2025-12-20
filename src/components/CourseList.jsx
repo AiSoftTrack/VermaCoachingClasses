@@ -1,9 +1,13 @@
+import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import CourseCard from './CourseCard';
 import { coursesData } from '../data/courses';
 import { Tag, TrendingDown } from 'lucide-react';
 
+
+
 function CourseList() {
+  const navigate = useNavigate();
   const [selectedCourses, setSelectedCourses] = useState([]);
 
   const handleToggleSelect = (courseId) => {
@@ -15,6 +19,16 @@ function CourseList() {
       }
     });
   };
+  
+  const handleApplyNow = () => {
+  const selectedCourseNames = coursesData
+    .filter(course => selectedCourses.includes(course.id))
+    .map(course => course.name);
+
+  navigate('/admission', {
+    state: { selectedSubjects: selectedCourseNames }
+  });
+};
 
   // Bundle discount calculation
   // If 3 or more courses are selected, apply 15% discount
@@ -83,7 +97,8 @@ function CourseList() {
               </div>
 
               <div className="flex justify-between items-center text-gray-700">
-                <span>Original Total:</span>
+                <span>appy for admission:</span>
+
                 <span className="font-semibold">Rs. {originalTotal.toLocaleString()}</span>
               </div>
 
@@ -112,6 +127,13 @@ function CourseList() {
                 </p>
               )}
             </div>
+            <button
+      onClick={handleApplyNow}
+      className="mt-6 w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
+    >
+      Proceed to Admission
+    </button>
+
           </div>
         )}
       </div>

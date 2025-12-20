@@ -79,7 +79,7 @@ function Home() {
       <CourseList />
 
       {/* 4. Admission Form */}
-      <AdmissionForm />
+      {/* <AdmissionForm /> */}
 
       {/* 5. Enquiry/Contact Form */}
       <EnquiryForm />

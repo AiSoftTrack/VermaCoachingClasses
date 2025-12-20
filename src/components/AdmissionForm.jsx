@@ -1,15 +1,28 @@
-import { useState } from 'react';
+import { useLocation } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 import { subjectsData } from '../data/subjects';
 import { submitToGoogleForm, ADMISSION_FORM_URL, ADMISSION_FORM_FIELDS } from '../utils/googleFormConfig';
 import { CheckCircle, XCircle, BookOpen, Plus, X } from 'lucide-react';
 
+
 function AdmissionForm() {
+  const location = useLocation();
+  
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     phone: '',
     selectedSubjects: []
   });
+
+  useEffect(() => {
+    if (location.state?.selectedSubjects) {
+      setFormData(prev => ({
+        ...prev,
+        selectedSubjects: location.state.selectedSubjects
+      }));
+    }
+  }, [location.state]);
 
   const [customSubject, setCustomSubject] = useState('');
   const [submitting, setSubmitting] = useState(false);

@@ -24,9 +24,14 @@ function Header() {
             <a href="#courses" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
               Courses
             </a>
-            <a href="#admission" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+                       {/* ✅ Admission page */}
+            <Link
+              to="/admission"
+              className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
+            >
               Admission
-            </a>
+            </Link>
+
             <a href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
               Contact
             </a>
